@@ -6,10 +6,7 @@ import morgan from "morgan";
 const app = express();
 
 app.use(
-  cors({
-    origin: ["https://play-tube-frontend.vercel.app"],
-    credentials: true,
-  })
+  cors()
 );
 // origin: process.env.CORS_ORIGIN,
 
