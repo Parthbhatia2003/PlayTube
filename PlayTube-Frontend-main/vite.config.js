@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api": "https://play-tube-api-indol.vercel.app",
+      "/api": "https://play-tube-api-indol.vercel.app/api/v1",
     },
   },
 });
